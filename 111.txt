@@ -1,0 +1,6 @@
+pg_dump -d ARCHIVE > /home/highgo/highgobak/ARCHIVE.sql$(date +"%Y%m%d%H%M%S")
+pg_dump -d TYJRARCH> /home/highgo/highgobak/TYJRARCH.sql$(date +"%Y%m%d%H%M%S")
+pg_dump -d TYJROA> /home/highgo/highgobak/TYJROA.sql$(date +"%Y%m%d%H%M%S")
+pg_dump -d YTARCHIVE> /home/highgo/highgobak/YTARCHIVE.sql$(date +"%Y%m%d%H%M%S")
+pg_dump -d highgo> /home/highgo/highgobak/highgo.sql$(date +"%Y%m%d%H%M%S")
+pg_dump -d nytda> /home/highgo/highgobak/nytda.sql$(date +"%Y%m%d%H%M%S")
